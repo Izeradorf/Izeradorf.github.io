@@ -1,0 +1,18 @@
+.block1 {
+   border-style: solid;
+   background-color: rgb(224, 240, 9);
+   width: 100px;
+   height: 100px;
+   margin: auto;
+   transition: width 2s, height 2s, background-color 2s, transform 2s ;
+   
+}
+
+
+.block1:hover {
+   background-color: rgb(9, 248, 61);
+   width: 200px;
+   height: 200px;
+   transform: scaleX(0.5);
+     
+}
